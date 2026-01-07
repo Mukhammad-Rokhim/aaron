@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- ANIMATION -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container site-header__container">
+    <a class="logo" href="/">
+      <img src="images/header/logo.svg" alt="logo" width="125px" height="22px">
+    </a>
+
+    <ul class="site-header__list">
+      <li class="site-header__item">
+        <a class="site-header__link" href="#">Home</a>
+      </li>
+
+      <li class="site-header__item">
+        <a class="site-header__link" href="#">About me</a>
+      </li>
+
+      <li class="site-header__item">
+        <a class="site-header__link" href="#">My works</a>
+      </li>
+    </ul>
+
+    <a class="btn" href="#">Contact</a>
+  </div>
+</header>
+
+<main class="main">
+  <section class="hero">
+    <div class="hero__container">
+      <h1 class="hero__title">Adaptive Logo Design for Your
+        Brand</h1>
+        <button class="btn-orange">
+          Explore works
+          <img class="hero__img" src="images/hero/icon.svg" alt="icon" />
+        </button>
+    </div>
+  </section>
+  <section class="know">
+    <div class="container know__container">
+      <div class="know__info">
+        <h2 class="know__title">
+          Let’s get know about me closer
+        </h2>
+        <p class="know__text">
+          Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her wide range of work, spanning books, posters and web design.
+        </p>
+        <button class="btn-orange know__btn-orange">Discover More About Me</button>
+      </div>
+
+      <div class="know__img-wrapper">
+        <img src="images/know/img know.png" alt="images">
+        <img class="know__horizontal" src="images/know/gorizantal.svg" alt="gorizantal">
+        <img class="know__vertical" src="images/know/vertical.svg" alt="vertical">
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- JS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800,
+    easing: 'ease-out-cubic',
+    once: true,
+    offset: 60,
+  });
+</script>
+</body>
+</html>
