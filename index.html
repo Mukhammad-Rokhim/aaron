@@ -1,81 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- ANIMATION -->
-   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-   <!-- CSS -->
-  <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-<header class="site-header">
-  <div class="container site-header__container">
-    <a class="logo" href="/">
-      <img src="images/header/logo.svg" alt="logo" width="125px" height="22px">
-    </a>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- ANIMATION -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<!-- HEADER START -->
+		<header class="site-header" data-aos="fade-down">
+			<div class="container site-header__container">
+				<!-- Logo -->
+				<a class="logo" href="/" data-aos="fade-right" data-aos-delay="100">
+					<img src="images/header/logo.svg" alt="logo" width="125" height="22" />
+				</a>
 
-    <ul class="site-header__list">
-      <li class="site-header__item">
-        <a class="site-header__link" href="#">Home</a>
-      </li>
+				<!-- Navigation -->
+				<ul class="site-header__list">
+					<li class="site-header__item" data-aos="fade-down" data-aos-delay="200">
+						<a class="site-header__link" href="#">Home</a>
+					</li>
 
-      <li class="site-header__item">
-        <a class="site-header__link" href="#">About me</a>
-      </li>
+					<li class="site-header__item" data-aos="fade-down" data-aos-delay="300">
+						<a class="site-header__link" href="#">About me</a>
+					</li>
 
-      <li class="site-header__item">
-        <a class="site-header__link" href="#">My works</a>
-      </li>
-    </ul>
+					<li class="site-header__item" data-aos="fade-down" data-aos-delay="400">
+						<a class="site-header__link" href="#">My works</a>
+					</li>
+				</ul>
 
-    <a class="btn" href="#">Contact</a>
+				<!-- Button -->
+				<a class="btn" href="#" data-aos="fade-left" data-aos-delay="500"> Contact </a>
+			</div>
+		</header>
+
+		<!-- HEADER END -->
+
+		<!-- HERO START -->
+		<main class="main">
+			<section class="hero" data-aos="fade-up">
+				<div class="hero__container">
+					<!-- Title -->
+					<h1 class="hero__title" data-aos="fade-up" data-aos-delay="150">Adaptive Logo Design for Your Brand</h1>
+
+					<!-- Button -->
+					<button class="btn-orange" data-aos="zoom-in" data-aos-delay="350">
+						Explore works
+						<img class="hero__img" src="images/hero/icon.svg" alt="icon" data-aos="fade-left" data-aos-delay="550" />
+					</button>
+				</div>
+			</section>
+
+			<!-- HERO END -->
+
+			<!-- KNOW START -->
+	<section class="know">
+  <div class="container know__container">
+
+    <!-- Text block -->
+    <div class="know__info" data-aos="fade-right">
+
+      <h2 class="know__title" data-aos="fade-up" data-aos-delay="100">
+        Let’s get know about me closer
+      </h2>
+
+      <p class="know__text" data-aos="fade-up" data-aos-delay="250">
+        Aaronn is a New York-based visual designer focusing on branding and visual identity.
+        Her portfolio showcases her wide range of work, spanning books, posters and web design.
+      </p>
+
+      <button
+        class="btn-orange know__btn-orange"
+        data-aos="zoom-in"
+        data-aos-delay="400"
+      >
+        Discover More About Me
+      </button>
+
+    </div>
+
+    <!-- Image block -->
+    <div class="know__img-wrapper" data-aos="fade-left" data-aos-delay="200">
+
+      <img
+        src="images/know/img know.png"
+        alt="images"
+        data-aos="zoom-in"
+        data-aos-delay="300"
+      />
+
+      <img
+        class="know__horizontal"
+        src="images/know/gorizantal.svg"
+        alt="gorizantal"
+        data-aos="fade-right"
+        data-aos-delay="500"
+      />
+
+      <img
+        class="know__vertical"
+        src="images/know/vertical.svg"
+        alt="vertical"
+        data-aos="fade-up"
+        data-aos-delay="650"
+      />
+
+    </div>
+
   </div>
-</header>
+</section>
+		</main>
+		<!-- KNOW END -->
 
-<main class="main">
-  <section class="hero">
-    <div class="hero__container">
-      <h1 class="hero__title">Adaptive Logo Design for Your
-        Brand</h1>
-        <button class="btn-orange">
-          Explore works
-          <img class="hero__img" src="images/hero/icon.svg" alt="icon" />
-        </button>
-    </div>
-  </section>
-  <section class="know">
-    <div class="container know__container">
-      <div class="know__info">
-        <h2 class="know__title">
-          Let’s get know about me closer
-        </h2>
-        <p class="know__text">
-          Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her wide range of work, spanning books, posters and web design.
-        </p>
-        <button class="btn-orange know__btn-orange">Discover More About Me</button>
-      </div>
+		<!-- PROJECTS START -->
+		<section class="projects">
+			<div class="container">
+				<div class="projects__top">
+					<h2 class="projects__title">My Projects Highlight</h2>
+					<a class="projects__link" href="#">Explore More <img src="images/hero/icon.svg" alt="" /></a>
+				</div>
+			</div>
+		</section>
+		<!-- PROJECTS END -->
 
-      <div class="know__img-wrapper">
-        <img src="images/know/img know.png" alt="images">
-        <img class="know__horizontal" src="images/know/gorizantal.svg" alt="gorizantal">
-        <img class="know__vertical" src="images/know/vertical.svg" alt="vertical">
-      </div>
-    </div>
-  </section>
-</main>
-
-<!-- JS-->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init({
-    duration: 800,
-    easing: 'ease-out-cubic',
-    once: true,
-    offset: 60,
-  });
-</script>
-</body>
+		<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				duration: 900,
+				easing: 'ease-out-cubic',
+				once: true,
+				offset: 60,
+			});
+		</script>
+	</body>
 </html>
