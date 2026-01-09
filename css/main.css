@@ -392,5 +392,57 @@ font-size: 14px;
 line-height: 22px;
 letter-spacing: 0.25px;
 }
-
 /* PROJECTS END */
+
+/* TESTIMONAL START */
+.testimonial {
+	padding-top: 100px;
+	padding-bottom: 199px;
+	color: var(--white-color);
+
+}
+
+.testimonial__container {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+}
+
+.testimonial__info {
+	max-width: 878px;
+	width: 100%;
+margin-right: 57px;
+}
+
+.testimonal__title {
+	margin-bottom: 44px;
+	font-family: var(--syne-fonts);
+font-weight: 700;
+font-style: Bold;
+font-size: 64px;
+line-height: 100%;
+}
+
+.testimonial__text {
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+color:#949494;
+margin-bottom: 35px;
+}
+
+.testimonial__title5 {
+	font-family: var(--syne-fonts);
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 100%;
+}
+
+.testimonial__img {
+	width: 199px;
+	height: 183px;
+
+	object-fit: contain;
+}
+/* TESTIMONAL END */
